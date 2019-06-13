@@ -12,7 +12,7 @@ namespace IstorieSiSocietate
 {
     public partial class Quiz : Form
     {
-        private RadioButton[] Raspunsuri = new RadioButton[5];
+        private readonly RadioButton[] Raspunsuri = new RadioButton[5];
 
         public Quiz()
         {

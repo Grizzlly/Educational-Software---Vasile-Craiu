@@ -13,7 +13,7 @@ namespace IstorieSiSocietate
     public partial class Main : Form
     {
 
-        private Cuprins CuprinsForm = new Cuprins();
+        private readonly Cuprins CuprinsForm = new Cuprins();
 
         public Main()
         {

@@ -15,11 +15,11 @@ namespace IstorieSiSocietate
     public partial class Anexe : Form
     {
 
-        private Image[] Imagini = Directory.GetFiles("Imagini").Select(file => Image.FromFile(file)).ToArray();
-        private string[] ImgPath = Directory.GetFiles("Imagini");
+        private readonly Image[] Imagini = Directory.GetFiles("Imagini").Select(file => Image.FromFile(file)).ToArray();
+        private readonly string[] ImgPath = Directory.GetFiles("Imagini");
 
         private int MainCounter = 0;
-        private int NrImag = Directory.GetFiles("Imagini").Length-1;
+        private readonly int NrImag = Directory.GetFiles("Imagini").Length-1;
 
         public Anexe()
         {

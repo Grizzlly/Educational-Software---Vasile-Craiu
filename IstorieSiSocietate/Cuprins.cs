@@ -12,14 +12,9 @@ namespace IstorieSiSocietate
 {
     public partial class Cuprins : Form
     {
-
-        Primii_ani Ani = new Primii_ani();
-        Scoala_militara_si_de_aviatie Scl = new Scoala_militara_si_de_aviatie();
-        Nori_negrii_pe_cerul_Romaniei Nori = new Nori_negrii_pe_cerul_Romaniei();
-        Sfarsitul_vietii Sfarsitul = new Sfarsitul_vietii();
-        Quiz Qui = new Quiz();
-        Bibliografie Bib = new Bibliografie();
-        Anexe Anex = new Anexe();
+        private readonly Bibliografie Bib = new Bibliografie();
+        private readonly Anexe Anex = new Anexe();
+        //private readonly JocSpanzuratoarea JocSp = new JocSpanzuratoarea();
 
         public static bool[] CapParcurse = new bool[] { false, false, false, false };
 
@@ -30,7 +25,8 @@ namespace IstorieSiSocietate
 
         private void Cuprins_Load(object sender, EventArgs e)
         {
-            QuizBox.Enabled = false;
+            LabelQuizBox.Enabled = false;
+            //LabelJocuri.Enabled = false;
         }
 
         private void Cuprins_VisibleChanged(object sender, EventArgs e)
@@ -43,36 +39,40 @@ namespace IstorieSiSocietate
                 }
             }
 
-            QuizCheck.Visible = false;
-            QuizCheck.Enabled = false;
+            LabelQuizCheck.Visible = false;
+            LabelQuizCheck.Enabled = false;
 
-            QuizBox.Enabled = true;
+            LabelQuizBox.Enabled = true;
+            LabelJocuri.Enabled = true;
         }
 
         #region Cap1
         private void Cap1_Click(object sender, EventArgs e)
         {
             Hide();
-            switch(Ani.ShowDialog())
+            using (Primii_ani primii_Ani = new Primii_ani())
             {
-                case DialogResult.Abort:
-                    Show();
-                    break;
+                switch (primii_Ani.ShowDialog())
+                {
+                    case DialogResult.Abort:
+                        Show();
+                        break;
 
-                case DialogResult.Yes:
-                    Cap2_Click(null, EventArgs.Empty);
-                    break;
+                    case DialogResult.Yes:
+                        Cap2_Click(null, EventArgs.Empty);
+                        break;
+                }
             }
         }
 
         private void Cap1_MouseEnter(object sender, EventArgs e)
         {
-            Cap1.Font = new Font(Cap1.Font.Name, 20, FontStyle.Bold);
+            LabelCap1.Font = new Font(LabelCap1.Font.Name, 20, FontStyle.Bold);
         }
 
         private void Cap1_MouseLeave(object sender, EventArgs e)
         {
-            Cap1.Font = new Font(Cap1.Font.Name, 14, FontStyle.Bold);
+            LabelCap1.Font = new Font(LabelCap1.Font.Name, 14, FontStyle.Bold);
         }
         #endregion
 
@@ -80,30 +80,33 @@ namespace IstorieSiSocietate
         private void Cap2_Click(object sender, EventArgs e)
         {
             Hide();
-            switch (Scl.ShowDialog())
+            using (Scoala_militara_si_de_aviatie scoala = new Scoala_militara_si_de_aviatie())
             {
-                case DialogResult.Abort:
-                    Show();
-                    break;
+                switch (scoala.ShowDialog())
+                {
+                    case DialogResult.Abort:
+                        Show();
+                        break;
 
-                case DialogResult.No:
-                    Cap1_Click(null, EventArgs.Empty);
-                    break;
+                    case DialogResult.No:
+                        Cap1_Click(null, EventArgs.Empty);
+                        break;
 
-                case DialogResult.Yes:
-                    Cap3_Click(null, EventArgs.Empty);
-                    break;
+                    case DialogResult.Yes:
+                        Cap3_Click(null, EventArgs.Empty);
+                        break;
+                }
             }
         }
 
         private void Cap2_MouseEnter(object sender, EventArgs e)
         {
-            Cap2.Font = new Font(Cap2.Font.Name, 20, FontStyle.Bold);
+            LabelCap2.Font = new Font(LabelCap2.Font.Name, 20, FontStyle.Bold);
         }
 
         private void Cap2_MouseLeave(object sender, EventArgs e)
         {
-            Cap2.Font = new Font(Cap2.Font.Name, 14, FontStyle.Bold);
+            LabelCap2.Font = new Font(LabelCap2.Font.Name, 14, FontStyle.Bold);
         }
         #endregion
 
@@ -111,30 +114,33 @@ namespace IstorieSiSocietate
         private void Cap3_Click(object sender, EventArgs e)
         {
             Hide();
-            switch (Nori.ShowDialog())
+            using (Nori_negrii_pe_cerul_Romaniei nori = new Nori_negrii_pe_cerul_Romaniei())
             {
-                case DialogResult.Abort:
-                    Show();
-                    break;
+                switch (nori.ShowDialog())
+                {
+                    case DialogResult.Abort:
+                        Show();
+                        break;
 
-                case DialogResult.No:
-                    Cap2_Click(null, EventArgs.Empty);
-                    break;
+                    case DialogResult.No:
+                        Cap2_Click(null, EventArgs.Empty);
+                        break;
 
-                case DialogResult.Yes:
-                    Cap4_Click(null, EventArgs.Empty);
-                    break;
+                    case DialogResult.Yes:
+                        Cap4_Click(null, EventArgs.Empty);
+                        break;
+                }
             }
         }
 
         private void Cap3_MouseEnter(object sender, EventArgs e)
         {
-            Cap3.Font = new Font(Cap3.Font.Name, 20, FontStyle.Bold);
+            LabelCap3.Font = new Font(LabelCap3.Font.Name, 20, FontStyle.Bold);
         }
 
         private void Cap3_MouseLeave(object sender, EventArgs e)
         {
-            Cap3.Font = new Font(Cap3.Font.Name, 14, FontStyle.Bold);
+            LabelCap3.Font = new Font(LabelCap3.Font.Name, 14, FontStyle.Bold);
         }
         #endregion
 
@@ -142,30 +148,33 @@ namespace IstorieSiSocietate
         private void Cap4_Click(object sender, EventArgs e)
         {
             Hide();
-            switch (Sfarsitul.ShowDialog())
+            using (Sfarsitul_vietii sfarsitul = new Sfarsitul_vietii())
             {
-                case DialogResult.Abort:
-                    Show();
-                    break;
+                switch (sfarsitul.ShowDialog())
+                {
+                    case DialogResult.Abort:
+                        Show();
+                        break;
 
-                case DialogResult.No:
-                    Cap3_Click(null, EventArgs.Empty);
-                    break;
+                    case DialogResult.No:
+                        Cap3_Click(null, EventArgs.Empty);
+                        break;
 
-                case DialogResult.Yes:
-                    Cap5_Click(null, EventArgs.Empty);
-                    break;
+                    case DialogResult.Yes:
+                        Cap5_Click(null, EventArgs.Empty);
+                        break;
+                }
             }
         }
 
         private void Cap4_MouseEnter(object sender, EventArgs e)
         {
-            Cap4.Font = new Font(Cap4.Font.Name, 20, FontStyle.Bold);
+            LabelCap4.Font = new Font(LabelCap4.Font.Name, 20, FontStyle.Bold);
         }
 
         private void Cap4_MouseLeave(object sender, EventArgs e)
         {
-            Cap4.Font = new Font(Cap4.Font.Name, 14, FontStyle.Bold);
+            LabelCap4.Font = new Font(LabelCap4.Font.Name, 14, FontStyle.Bold);
         }
         #endregion
 
@@ -173,18 +182,21 @@ namespace IstorieSiSocietate
         private void QuizBox_Click(object sender, EventArgs e)
         {
             Hide();
-            Qui.ShowDialog();
+            using(Quiz quiz = new Quiz())
+            {
+                quiz.ShowDialog();
+            }
             Show();
         }
 
         private void QuizBoz_MouseEnter(object sender, EventArgs e)
         {
-            QuizBox.Font = new Font(QuizBox.Font.Name, 20, FontStyle.Bold);
+            LabelQuizBox.Font = new Font(LabelQuizBox.Font.Name, 20, FontStyle.Bold);
         }
 
         private void QuizBox_MouseLeave(object sender, EventArgs e)
         {
-            QuizBox.Font = new Font(QuizBox.Font.Name, 14, FontStyle.Bold);
+            LabelQuizBox.Font = new Font(LabelQuizBox.Font.Name, 14, FontStyle.Bold);
         }
         #endregion
 
@@ -192,18 +204,22 @@ namespace IstorieSiSocietate
         private void Cap5_Click(object sender, EventArgs e)
         {
             Hide();
+            using (Bibliografie bibliografie = new Bibliografie())
+            {
+                bibliografie.ShowDialog();
+            }
             Bib.ShowDialog();
             Show();
         }
 
         private void Cap5_MouseEnter(object sender, EventArgs e)
         {
-            Cap5.Font = new Font(Cap5.Font.Name, 20, FontStyle.Bold);
+            LabelCap5.Font = new Font(LabelCap5.Font.Name, 20, FontStyle.Bold);
         }
 
         private void Cap5_MouseLeave(object sender, EventArgs e)
         {
-            Cap5.Font = new Font(Cap5.Font.Name, 14, FontStyle.Bold);
+            LabelCap5.Font = new Font(LabelCap5.Font.Name, 14, FontStyle.Bold);
         }
         #endregion
 
@@ -217,14 +233,47 @@ namespace IstorieSiSocietate
 
         private void Cap6_MouseEnter(object sender, EventArgs e)
         {
-            Cap6.Font = new Font(Cap6.Font.Name, 20, FontStyle.Bold);
+            LabelCap6.Font = new Font(LabelCap6.Font.Name, 20, FontStyle.Bold);
         }
 
         private void Cap6_MouseLeave(object sender, EventArgs e)
         {
-            Cap6.Font = new Font(Cap6.Font.Name, 14, FontStyle.Bold);
+            LabelCap6.Font = new Font(LabelCap6.Font.Name, 14, FontStyle.Bold);
         }
         #endregion
 
+        #region Jocuri
+
+        private void LabelJocuri_Click(object sender, EventArgs e)
+        {
+            using (GameSelect GameSelector = new GameSelect())
+            {
+                Hide();
+                if (GameSelector.ShowDialog() == DialogResult.OK)
+                {
+                    switch (GameSelector.SelectedJoc)
+                    {
+                        case GameSelect.Jocuri.Spanzuratoarea:
+                            using (JocSpanzuratoarea JocSp = new JocSpanzuratoarea())
+                            {
+                                JocSp.ShowDialog();
+                            }
+                            break;
+
+                        case GameSelect.Jocuri.Puzzle:
+                            using (JocPuzzle JocP = new JocPuzzle())
+                            {
+                                JocP.ShowDialog();
+                            }
+                            break;
+
+                        default: break;
+                    }
+                }
+                Show();
+            }
+        }
+
+        #endregion
     }
 }

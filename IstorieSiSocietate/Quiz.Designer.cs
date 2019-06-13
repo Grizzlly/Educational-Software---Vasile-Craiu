@@ -310,7 +310,7 @@
             this.Q4Box.ForeColor = System.Drawing.SystemColors.ControlText;
             this.Q4Box.Location = new System.Drawing.Point(16, 291);
             this.Q4Box.Name = "Q4Box";
-            this.Q4Box.Size = new System.Drawing.Size(378, 42);
+            this.Q4Box.Size = new System.Drawing.Size(385, 42);
             this.Q4Box.TabIndex = 33;
             this.Q4Box.TabStop = false;
             this.Q4Box.Text = "Răspuns:";

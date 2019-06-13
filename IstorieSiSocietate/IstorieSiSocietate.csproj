@@ -82,6 +82,24 @@
     <Compile Include="Cuprins.Designer.cs">
       <DependentUpon>Cuprins.cs</DependentUpon>
     </Compile>
+    <Compile Include="GameSelect.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GameSelect.Designer.cs">
+      <DependentUpon>GameSelect.cs</DependentUpon>
+    </Compile>
+    <Compile Include="JocPuzzle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="JocPuzzle.Designer.cs">
+      <DependentUpon>JocPuzzle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="JocSpanzuratoarea.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="JocSpanzuratoarea.Designer.cs">
+      <DependentUpon>JocSpanzuratoarea.cs</DependentUpon>
+    </Compile>
     <Compile Include="Main.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -129,6 +147,15 @@
     <EmbeddedResource Include="Cuprins.resx">
       <DependentUpon>Cuprins.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="GameSelect.resx">
+      <DependentUpon>GameSelect.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="JocPuzzle.resx">
+      <DependentUpon>JocPuzzle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="JocSpanzuratoarea.resx">
+      <DependentUpon>JocSpanzuratoarea.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Main.resx">
       <DependentUpon>Main.cs</DependentUpon>
     </EmbeddedResource>
@@ -171,6 +198,50 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="2019_02_17 4_43 PM Office Lense.ico" />
+    <Content Include="ImaginiPuzzle\1560443350837-4c007c46-26ff-42a3-bcf9-422916572693_.jpg" />
+    <Content Include="ImaginiPuzzle\1560443953734-957f0678-6336-42bb-945c-499567c185be.jpg" />
+    <Content Include="ImaginiPuzzle\2019_02_17 4_09 PM Office Lens.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImaginiPuzzle\2019_02_17 4_43 PM Office Lense.jpg" />
+    <Content Include="ImaginiPuzzle\2019_02_17 5_13 PM Office Lens.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImaginiPuzzle\2019_02_17 5_14 PM Office Lens.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImaginiPuzzle\2019_02_17 5_24 PM Office Lens.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImaginiPuzzle\2019_02_17 5_25 PM Office Lens.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImaginiPuzzle\2019_02_17 6_06 PM Office Lens.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImaginiPuzzle\2019_02_17 7_00 PM Office Lens.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImaginiPuzzle\2019_02_17 7_03 PM Office Lens.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImaginiPuzzle\2019_02_17 7_05 PM Office Lens.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImaginiPuzzle\2019_02_17 7_06 PM Office Lens.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImaginiPuzzle\2019_02_17 8_19 PM Office Lens.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImaginiPuzzle\imageedit_2_7043588239.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ImaginiPuzzle\transee--warhistoryonline-com-crdownload_31185400.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Imagini\1560443350837-4c007c46-26ff-42a3-bcf9-422916572693_.jpg" />
+    <Content Include="Imagini\1560443953734-957f0678-6336-42bb-945c-499567c185be.jpg" />
     <Content Include="Imagini\2019_02_17 4_07 PM Office Lens.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>

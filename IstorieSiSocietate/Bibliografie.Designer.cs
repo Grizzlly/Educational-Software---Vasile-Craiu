@@ -35,6 +35,8 @@
             this.Mat3 = new System.Windows.Forms.Label();
             this.Mat4 = new System.Windows.Forms.Label();
             this.CuprinsBtn = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // TitluBox
@@ -52,17 +54,17 @@
             // 
             this.Mat1.AutoSize = true;
             this.Mat1.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Mat1.Location = new System.Drawing.Point(12, 97);
+            this.Mat1.Location = new System.Drawing.Point(12, 109);
             this.Mat1.Name = "Mat1";
-            this.Mat1.Size = new System.Drawing.Size(766, 22);
+            this.Mat1.Size = new System.Drawing.Size(714, 22);
             this.Mat1.TabIndex = 1;
-            this.Mat1.Text = "- Dan ANTONIU, \"Căpitan aviator CRAIU VASILE\", Editura MĂIASTRA, Târgu Jiu, 2018";
+            this.Mat1.Text = "- Dan Antoniu, \"Căpitan aviator CRAIU VASILE\", Editura Măiastra, Târgu Jiu, 2018";
             // 
             // Mat2
             // 
             this.Mat2.AutoSize = true;
             this.Mat2.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Mat2.Location = new System.Drawing.Point(12, 151);
+            this.Mat2.Location = new System.Drawing.Point(12, 174);
             this.Mat2.Name = "Mat2";
             this.Mat2.Size = new System.Drawing.Size(686, 22);
             this.Mat2.TabIndex = 2;
@@ -72,7 +74,7 @@
             // 
             this.Mat3.AutoSize = true;
             this.Mat3.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Mat3.Location = new System.Drawing.Point(12, 200);
+            this.Mat3.Location = new System.Drawing.Point(12, 206);
             this.Mat3.Name = "Mat3";
             this.Mat3.Size = new System.Drawing.Size(287, 22);
             this.Mat3.TabIndex = 3;
@@ -82,7 +84,7 @@
             // 
             this.Mat4.AutoSize = true;
             this.Mat4.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Mat4.Location = new System.Drawing.Point(13, 251);
+            this.Mat4.Location = new System.Drawing.Point(12, 240);
             this.Mat4.Name = "Mat4";
             this.Mat4.Size = new System.Drawing.Size(84, 22);
             this.Mat4.TabIndex = 4;
@@ -98,11 +100,33 @@
             this.CuprinsBtn.Text = "Cuprins";
             this.CuprinsBtn.UseVisualStyleBackColor = true;
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(12, 77);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(448, 22);
+            this.label1.TabIndex = 6;
+            this.label1.Text = "- Titus Acsente, Vasile Craiu, Editura Modelism, 1998";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(12, 141);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(607, 22);
+            this.label2.TabIndex = 7;
+            this.label2.Text = "- Valeriu Avram, \"Zburătorii României Mari\", Editura Alpha MDN, 2007";
+            // 
             // Bibliografie
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.CuprinsBtn);
             this.Controls.Add(this.Mat4);
             this.Controls.Add(this.Mat3);
@@ -126,5 +150,7 @@
         private System.Windows.Forms.Label Mat3;
         private System.Windows.Forms.Label Mat4;
         private System.Windows.Forms.Button CuprinsBtn;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
     }
 }
