@@ -1,0 +1,50 @@
+S:\Microsoft Visual Studio\workspaceC#\IstorieSiSocietate\IstorieSiSocietate\bin\Debug\IstorieSiSocietate.exe.config
+S:\Microsoft Visual Studio\workspaceC#\IstorieSiSocietate\IstorieSiSocietate\bin\Debug\IstorieSiSocietate.exe
+S:\Microsoft Visual Studio\workspaceC#\IstorieSiSocietate\IstorieSiSocietate\bin\Debug\IstorieSiSocietate.pdb
+S:\Microsoft Visual Studio\workspaceC#\IstorieSiSocietate\IstorieSiSocietate\obj\Debug\IstorieSiSocietate.csprojAssemblyReference.cache
+S:\Microsoft Visual Studio\workspaceC#\IstorieSiSocietate\IstorieSiSocietate\obj\Debug\IstorieSiSocietate.Properties.Resources.resources
+S:\Microsoft Visual Studio\workspaceC#\IstorieSiSocietate\IstorieSiSocietate\obj\Debug\IstorieSiSocietate.csproj.GenerateResource.cache
+S:\Microsoft Visual Studio\workspaceC#\IstorieSiSocietate\IstorieSiSocietate\obj\Debug\IstorieSiSocietate.csproj.CoreCompileInputs.cache
+S:\Microsoft Visual Studio\workspaceC#\IstorieSiSocietate\IstorieSiSocietate\obj\Debug\IstorieSiSocietate.exe
+S:\Microsoft Visual Studio\workspaceC#\IstorieSiSocietate\IstorieSiSocietate\obj\Debug\IstorieSiSocietate.pdb
+S:\Microsoft Visual Studio\workspaceC#\IstorieSiSocietate\IstorieSiSocietate\obj\Debug\IstorieSiSocietate.Main.resources
+S:\Microsoft Visual Studio\workspaceC#\IstorieSiSocietate\IstorieSiSocietate\obj\Debug\IstorieSiSocietate.Cuprins.resources
+S:\Microsoft Visual Studio\workspaceC#\IstorieSiSocietate\IstorieSiSocietate\obj\Debug\IstorieSiSocietate.Primii_ani.resources
+S:\Microsoft Visual Studio\workspaceC#\IstorieSiSocietate\IstorieSiSocietate\obj\Debug\IstorieSiSocietate.Bibliografie.resources
+S:\Microsoft Visual Studio\workspaceC#\IstorieSiSocietate\IstorieSiSocietate\obj\Debug\IstorieSiSocietate.Nori_negrii_pe_cerul_Romaniei.resources
+S:\Microsoft Visual Studio\workspaceC#\IstorieSiSocietate\IstorieSiSocietate\obj\Debug\IstorieSiSocietate.Scoala_militara_si_de_aviatie.resources
+S:\Microsoft Visual Studio\workspaceC#\IstorieSiSocietate\IstorieSiSocietate\obj\Debug\IstorieSiSocietate.Sfarsitul_vietii.resources
+S:\Microsoft Visual Studio\workspaceC#\IstorieSiSocietate\IstorieSiSocietate\obj\Debug\IstorieSiSocietate.Anexe.resources
+S:\Microsoft Visual Studio\workspaceC#\IstorieSiSocietate\IstorieSiSocietate\bin\Debug\Imagini\2019_02_17 4_07 PM Office Lens.jpg
+S:\Microsoft Visual Studio\workspaceC#\IstorieSiSocietate\IstorieSiSocietate\bin\Debug\Imagini\2019_02_17 4_09 PM Office Lens.jpg
+S:\Microsoft Visual Studio\workspaceC#\IstorieSiSocietate\IstorieSiSocietate\bin\Debug\Imagini\2019_02_17 5_07 PM Office Lens.jpg
+S:\Microsoft Visual Studio\workspaceC#\IstorieSiSocietate\IstorieSiSocietate\bin\Debug\Imagini\2019_02_17 5_13 PM Office Lens.jpg
+S:\Microsoft Visual Studio\workspaceC#\IstorieSiSocietate\IstorieSiSocietate\bin\Debug\Imagini\2019_02_17 5_14 PM Office Lens.jpg
+S:\Microsoft Visual Studio\workspaceC#\IstorieSiSocietate\IstorieSiSocietate\bin\Debug\Imagini\2019_02_17 5_24 PM Office Lens.jpg
+S:\Microsoft Visual Studio\workspaceC#\IstorieSiSocietate\IstorieSiSocietate\bin\Debug\Imagini\2019_02_17 5_25 PM Office Lens.jpg
+S:\Microsoft Visual Studio\workspaceC#\IstorieSiSocietate\IstorieSiSocietate\bin\Debug\Imagini\2019_02_17 6_06 PM Office Lens.jpg
+S:\Microsoft Visual Studio\workspaceC#\IstorieSiSocietate\IstorieSiSocietate\bin\Debug\Imagini\2019_02_17 6_46 PM Office Lens.jpg
+S:\Microsoft Visual Studio\workspaceC#\IstorieSiSocietate\IstorieSiSocietate\bin\Debug\Imagini\2019_02_17 7_00 PM Office Lens.jpg
+S:\Microsoft Visual Studio\workspaceC#\IstorieSiSocietate\IstorieSiSocietate\bin\Debug\Imagini\2019_02_17 7_03 PM Office Lens.jpg
+S:\Microsoft Visual Studio\workspaceC#\IstorieSiSocietate\IstorieSiSocietate\bin\Debug\Imagini\2019_02_17 7_05 PM Office Lens.jpg
+S:\Microsoft Visual Studio\workspaceC#\IstorieSiSocietate\IstorieSiSocietate\bin\Debug\Imagini\2019_02_17 7_06 PM Office Lens.jpg
+S:\Microsoft Visual Studio\workspaceC#\IstorieSiSocietate\IstorieSiSocietate\bin\Debug\Imagini\2019_02_17 8_19 PM Office Lens.jpg
+S:\Microsoft Visual Studio\workspaceC#\IstorieSiSocietate\IstorieSiSocietate\bin\Debug\Imagini\imageedit_2_7043588239.jpg
+S:\Microsoft Visual Studio\workspaceC#\IstorieSiSocietate\IstorieSiSocietate\bin\Debug\Imagini\transee--warhistoryonline-com-crdownload_31185400.jpg
+S:\Microsoft Visual Studio\workspaceC#\IstorieSiSocietate\IstorieSiSocietate\obj\Debug\IstorieSiSocietate.Quiz.resources
+S:\Microsoft Visual Studio\workspaceC#\IstorieSiSocietate\IstorieSiSocietate\obj\Debug\IstorieSiSocietate.GameSelect.resources
+S:\Microsoft Visual Studio\workspaceC#\IstorieSiSocietate\IstorieSiSocietate\obj\Debug\IstorieSiSocietate.JocSpanzuratoarea.resources
+S:\Microsoft Visual Studio\workspaceC#\IstorieSiSocietate\IstorieSiSocietate\obj\Debug\IstorieSiSocietate.JocPuzzle.resources
+S:\Microsoft Visual Studio\workspaceC#\IstorieSiSocietate\IstorieSiSocietate\bin\Debug\ImaginiPuzzle\2019_02_17 4_09 PM Office Lens.jpg
+S:\Microsoft Visual Studio\workspaceC#\IstorieSiSocietate\IstorieSiSocietate\bin\Debug\ImaginiPuzzle\2019_02_17 5_13 PM Office Lens.jpg
+S:\Microsoft Visual Studio\workspaceC#\IstorieSiSocietate\IstorieSiSocietate\bin\Debug\ImaginiPuzzle\2019_02_17 5_14 PM Office Lens.jpg
+S:\Microsoft Visual Studio\workspaceC#\IstorieSiSocietate\IstorieSiSocietate\bin\Debug\ImaginiPuzzle\2019_02_17 5_24 PM Office Lens.jpg
+S:\Microsoft Visual Studio\workspaceC#\IstorieSiSocietate\IstorieSiSocietate\bin\Debug\ImaginiPuzzle\2019_02_17 5_25 PM Office Lens.jpg
+S:\Microsoft Visual Studio\workspaceC#\IstorieSiSocietate\IstorieSiSocietate\bin\Debug\ImaginiPuzzle\2019_02_17 6_06 PM Office Lens.jpg
+S:\Microsoft Visual Studio\workspaceC#\IstorieSiSocietate\IstorieSiSocietate\bin\Debug\ImaginiPuzzle\2019_02_17 7_00 PM Office Lens.jpg
+S:\Microsoft Visual Studio\workspaceC#\IstorieSiSocietate\IstorieSiSocietate\bin\Debug\ImaginiPuzzle\2019_02_17 7_03 PM Office Lens.jpg
+S:\Microsoft Visual Studio\workspaceC#\IstorieSiSocietate\IstorieSiSocietate\bin\Debug\ImaginiPuzzle\2019_02_17 7_05 PM Office Lens.jpg
+S:\Microsoft Visual Studio\workspaceC#\IstorieSiSocietate\IstorieSiSocietate\bin\Debug\ImaginiPuzzle\2019_02_17 7_06 PM Office Lens.jpg
+S:\Microsoft Visual Studio\workspaceC#\IstorieSiSocietate\IstorieSiSocietate\bin\Debug\ImaginiPuzzle\2019_02_17 8_19 PM Office Lens.jpg
+S:\Microsoft Visual Studio\workspaceC#\IstorieSiSocietate\IstorieSiSocietate\bin\Debug\ImaginiPuzzle\imageedit_2_7043588239.jpg
+S:\Microsoft Visual Studio\workspaceC#\IstorieSiSocietate\IstorieSiSocietate\bin\Debug\ImaginiPuzzle\transee--warhistoryonline-com-crdownload_31185400.jpg
