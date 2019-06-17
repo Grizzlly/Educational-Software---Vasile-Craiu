@@ -22,7 +22,7 @@ namespace IstorieSiSocietate
         private void Cuprins_Load(object sender, EventArgs e)
         {
             LabelQuizBox.Enabled = false;
-            //LabelJocuri.Enabled = false;
+            LabelJocuri.Enabled = false;
         }
 
         private void Cuprins_VisibleChanged(object sender, EventArgs e)
