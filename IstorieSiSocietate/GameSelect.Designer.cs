@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(GameSelect));
             this.button1 = new System.Windows.Forms.Button();
             this.LabelSpanzuratoare = new System.Windows.Forms.Label();
             this.LabelPuzzle = new System.Windows.Forms.Label();
@@ -38,7 +39,7 @@
             this.button1.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.button1.Location = new System.Drawing.Point(12, 126);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(186, 23);
+            this.button1.Size = new System.Drawing.Size(236, 23);
             this.button1.TabIndex = 0;
             this.button1.Text = "Anulare";
             this.button1.UseVisualStyleBackColor = true;
@@ -69,10 +70,13 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(210, 161);
+            this.AutoSize = true;
+            this.ClientSize = new System.Drawing.Size(260, 161);
             this.Controls.Add(this.LabelPuzzle);
             this.Controls.Add(this.LabelSpanzuratoare);
             this.Controls.Add(this.button1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "GameSelect";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Selectare joc";

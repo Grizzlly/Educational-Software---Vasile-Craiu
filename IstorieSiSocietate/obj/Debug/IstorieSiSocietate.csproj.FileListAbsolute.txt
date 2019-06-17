@@ -48,3 +48,7 @@ S:\Microsoft Visual Studio\workspaceC#\IstorieSiSocietate\IstorieSiSocietate\bin
 S:\Microsoft Visual Studio\workspaceC#\IstorieSiSocietate\IstorieSiSocietate\bin\Debug\ImaginiPuzzle\2019_02_17 8_19 PM Office Lens.jpg
 S:\Microsoft Visual Studio\workspaceC#\IstorieSiSocietate\IstorieSiSocietate\bin\Debug\ImaginiPuzzle\imageedit_2_7043588239.jpg
 S:\Microsoft Visual Studio\workspaceC#\IstorieSiSocietate\IstorieSiSocietate\bin\Debug\ImaginiPuzzle\transee--warhistoryonline-com-crdownload_31185400.jpg
+S:\Microsoft Visual Studio\workspaceC#\IstorieSiSocietate\IstorieSiSocietate\bin\Debug\Sounds\Spanzuratoarea\SpIncorect.wav
+S:\Microsoft Visual Studio\workspaceC#\IstorieSiSocietate\IstorieSiSocietate\bin\Debug\Sounds\Spanzuratoarea\SpCorect.wav
+S:\Microsoft Visual Studio\workspaceC#\IstorieSiSocietate\IstorieSiSocietate\bin\Debug\Sounds\Spanzuratoarea\SpLose.wav
+S:\Microsoft Visual Studio\workspaceC#\IstorieSiSocietate\IstorieSiSocietate\bin\Debug\Sounds\Spanzuratoarea\SpWin.wav

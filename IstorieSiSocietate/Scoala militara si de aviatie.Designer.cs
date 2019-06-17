@@ -37,9 +37,11 @@
             this.NextBtn = new System.Windows.Forms.Button();
             this.BackBtn = new System.Windows.Forms.Button();
             this.CuprinsBtn = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.ElevImage)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.BrevetImage)).BeginInit();
             this.PanouInfo.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // TitluBox
@@ -66,9 +68,9 @@
             // BrevetImage
             // 
             this.BrevetImage.Image = ((System.Drawing.Image)(resources.GetObject("BrevetImage.Image")));
-            this.BrevetImage.Location = new System.Drawing.Point(541, 52);
+            this.BrevetImage.Location = new System.Drawing.Point(541, 246);
             this.BrevetImage.Name = "BrevetImage";
-            this.BrevetImage.Size = new System.Drawing.Size(247, 386);
+            this.BrevetImage.Size = new System.Drawing.Size(247, 192);
             this.BrevetImage.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.BrevetImage.TabIndex = 2;
             this.BrevetImage.TabStop = false;
@@ -124,11 +126,22 @@
             this.CuprinsBtn.Text = "Cuprins";
             this.CuprinsBtn.UseVisualStyleBackColor = true;
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(541, 52);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(247, 188);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 7;
+            this.pictureBox1.TabStop = false;
+            // 
             // Scoala_militara_si_de_aviatie
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.CuprinsBtn);
             this.Controls.Add(this.BackBtn);
             this.Controls.Add(this.NextBtn);
@@ -146,6 +159,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.ElevImage)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.BrevetImage)).EndInit();
             this.PanouInfo.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -161,5 +175,6 @@
         private System.Windows.Forms.Button NextBtn;
         private System.Windows.Forms.Button BackBtn;
         private System.Windows.Forms.Button CuprinsBtn;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

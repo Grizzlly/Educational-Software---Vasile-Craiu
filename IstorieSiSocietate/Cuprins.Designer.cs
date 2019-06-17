@@ -37,7 +37,7 @@
             this.LabelCap5 = new System.Windows.Forms.Label();
             this.LabelCap6 = new System.Windows.Forms.Label();
             this.LabelQuizBox = new System.Windows.Forms.Label();
-            this.LabelQuizCheck = new System.Windows.Forms.Label();
+            this.labelQuizCheck = new System.Windows.Forms.Label();
             this.LabelJocuri = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
@@ -149,15 +149,15 @@
             this.LabelQuizBox.MouseEnter += new System.EventHandler(this.QuizBoz_MouseEnter);
             this.LabelQuizBox.MouseLeave += new System.EventHandler(this.QuizBox_MouseLeave);
             // 
-            // LabelQuizCheck
+            // labelQuizCheck
             // 
-            this.LabelQuizCheck.AutoSize = true;
-            this.LabelQuizCheck.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LabelQuizCheck.Location = new System.Drawing.Point(308, 290);
-            this.LabelQuizCheck.Name = "LabelQuizCheck";
-            this.LabelQuizCheck.Size = new System.Drawing.Size(191, 14);
-            this.LabelQuizCheck.TabIndex = 8;
-            this.LabelQuizCheck.Text = "Notă: Trebuie parcurse toate capitolele!";
+            this.labelQuizCheck.AutoSize = true;
+            this.labelQuizCheck.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelQuizCheck.Location = new System.Drawing.Point(308, 290);
+            this.labelQuizCheck.Name = "labelQuizCheck";
+            this.labelQuizCheck.Size = new System.Drawing.Size(191, 14);
+            this.labelQuizCheck.TabIndex = 8;
+            this.labelQuizCheck.Text = "Notă: Trebuie parcurse toate capitolele!";
             // 
             // LabelJocuri
             // 
@@ -176,7 +176,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.LabelJocuri);
-            this.Controls.Add(this.LabelQuizCheck);
+            this.Controls.Add(this.labelQuizCheck);
             this.Controls.Add(this.LabelQuizBox);
             this.Controls.Add(this.LabelCap6);
             this.Controls.Add(this.LabelCap5);
@@ -207,7 +207,7 @@
         private System.Windows.Forms.Label LabelCap5;
         private System.Windows.Forms.Label LabelCap6;
         private System.Windows.Forms.Label LabelQuizBox;
-        private System.Windows.Forms.Label LabelQuizCheck;
+        private System.Windows.Forms.Label labelQuizCheck;
         private System.Windows.Forms.Label LabelJocuri;
     }
 }

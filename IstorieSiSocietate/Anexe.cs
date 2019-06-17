@@ -32,8 +32,6 @@ namespace IstorieSiSocietate
             NextPicBox.Image = Imagini[1];
 
             PrevBtn.Enabled = false;
-
-            Debug.Print(NrImag.ToString());
         }
 
         private void PrevBtn_Click(object sender, EventArgs e)

@@ -45,7 +45,7 @@
             this.progressTimeLeft = new System.Windows.Forms.ProgressBar();
             this.timerBar = new System.Windows.Forms.Timer(this.components);
             this.textTimeLeft = new System.Windows.Forms.TextBox();
-            this.labelMem = new System.Windows.Forms.Label();
+            this.labelState = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.picShuffle1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picShuffle2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picShuffle3)).BeginInit();
@@ -199,11 +199,11 @@
             // progressTimeLeft
             // 
             this.progressTimeLeft.Location = new System.Drawing.Point(12, 274);
-            this.progressTimeLeft.Maximum = 30;
+            this.progressTimeLeft.Maximum = 15;
             this.progressTimeLeft.Name = "progressTimeLeft";
             this.progressTimeLeft.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.progressTimeLeft.Size = new System.Drawing.Size(385, 54);
-            this.progressTimeLeft.Step = 6;
+            this.progressTimeLeft.Step = 3;
             this.progressTimeLeft.Style = System.Windows.Forms.ProgressBarStyle.Continuous;
             this.progressTimeLeft.TabIndex = 11;
             // 
@@ -223,23 +223,23 @@
             this.textTimeLeft.TabIndex = 12;
             this.textTimeLeft.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // labelMem
+            // labelState
             // 
-            this.labelMem.AutoSize = true;
-            this.labelMem.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelMem.Location = new System.Drawing.Point(13, 390);
-            this.labelMem.Name = "labelMem";
-            this.labelMem.Size = new System.Drawing.Size(201, 22);
-            this.labelMem.TabIndex = 13;
-            this.labelMem.Text = "Memorează imaginea!!!";
-            this.labelMem.Visible = false;
+            this.labelState.AutoSize = true;
+            this.labelState.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelState.Location = new System.Drawing.Point(13, 390);
+            this.labelState.Name = "labelState";
+            this.labelState.Size = new System.Drawing.Size(201, 22);
+            this.labelState.TabIndex = 13;
+            this.labelState.Text = "Memorează imaginea!!!";
+            this.labelState.Visible = false;
             // 
             // JocPuzzle
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(533, 450);
-            this.Controls.Add(this.labelMem);
+            this.Controls.Add(this.labelState);
             this.Controls.Add(this.textTimeLeft);
             this.Controls.Add(this.progressTimeLeft);
             this.Controls.Add(this.btnGameStart);
@@ -286,6 +286,6 @@
         private System.Windows.Forms.ProgressBar progressTimeLeft;
         private System.Windows.Forms.Timer timerBar;
         private System.Windows.Forms.TextBox textTimeLeft;
-        private System.Windows.Forms.Label labelMem;
+        private System.Windows.Forms.Label labelState;
     }
 }

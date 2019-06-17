@@ -11,11 +11,7 @@ using System.Windows.Forms;
 namespace IstorieSiSocietate
 {
     public partial class Cuprins : Form
-    {
-        private readonly Bibliografie Bib = new Bibliografie();
-        private readonly Anexe Anex = new Anexe();
-        //private readonly JocSpanzuratoarea JocSp = new JocSpanzuratoarea();
-
+    { 
         public static bool[] CapParcurse = new bool[] { false, false, false, false };
 
         public Cuprins()
@@ -39,8 +35,8 @@ namespace IstorieSiSocietate
                 }
             }
 
-            LabelQuizCheck.Visible = false;
-            LabelQuizCheck.Enabled = false;
+            labelQuizCheck.Visible = false;
+            labelQuizCheck.Enabled = false;
 
             LabelQuizBox.Enabled = true;
             LabelJocuri.Enabled = true;
@@ -191,12 +187,12 @@ namespace IstorieSiSocietate
 
         private void QuizBoz_MouseEnter(object sender, EventArgs e)
         {
-            LabelQuizBox.Font = new Font(LabelQuizBox.Font.Name, 20, FontStyle.Bold);
+            LabelQuizBox.Font = new Font(LabelQuizBox.Font.Name, 14, FontStyle.Bold);
         }
 
         private void QuizBox_MouseLeave(object sender, EventArgs e)
         {
-            LabelQuizBox.Font = new Font(LabelQuizBox.Font.Name, 14, FontStyle.Bold);
+            LabelQuizBox.Font = new Font(LabelQuizBox.Font.Name, 12, FontStyle.Bold);
         }
         #endregion
 
@@ -208,7 +204,6 @@ namespace IstorieSiSocietate
             {
                 bibliografie.ShowDialog();
             }
-            Bib.ShowDialog();
             Show();
         }
 
@@ -227,7 +222,10 @@ namespace IstorieSiSocietate
         private void Cap6_Click(object sender, EventArgs e)
         {
             Hide();
-            Anex.ShowDialog();
+            using(Anexe anexe = new Anexe())
+            {
+                anexe.ShowDialog();
+            }
             Show();
         }
 

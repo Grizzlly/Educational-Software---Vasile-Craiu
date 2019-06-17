@@ -209,7 +209,6 @@ namespace IstorieSiSocietate
                 if (ticks == 6)
                 {
                     progressTimeLeft.Step = -1;
-                    labelMem.Visible = false;
 
                     StartGame();
                 }
@@ -220,13 +219,13 @@ namespace IstorieSiSocietate
             }
             else
             {
-                if (CheckEnd() == true || ticks == 36)
+                if (CheckEnd() == true || ticks == 21)
                 {
                     EndGame();
                 }
                 else
                 {
-                    textTimeLeft.Text = $"Timp rămas: {(36 - ticks).ToString()} secunde";
+                    textTimeLeft.Text = $"Timp rămas: {(21 - ticks).ToString()} secunde";
                 }
             }
 
@@ -257,10 +256,16 @@ namespace IstorieSiSocietate
             if (CheckEnd() != true)
             {
                 textTimeLeft.Text = "Nu ai reușit să termini la timp... :(";
+
+                labelState.ForeColor = Color.Red;
+                labelState.Text = "Oops...";
             }
             else
             {
                 textTimeLeft.Text = "Felicitări! Încă o rundă?";
+
+                labelState.ForeColor = Color.Green;
+                labelState.Text = "Bravo!";
             }
 
 
@@ -303,16 +308,18 @@ namespace IstorieSiSocietate
             timerBar.Enabled = true;
 
             progressTimeLeft.Value = progressTimeLeft.Minimum;
-            progressTimeLeft.Step = 6;
+            progressTimeLeft.Step = 3;
 
-            labelMem.Visible = true;
+            labelState.ForeColor = SystemColors.ControlText;
+            labelState.Text = "Memorează imaginea!!!";
+            labelState.Visible = true;
 
             btnGameStart.Enabled = false;
         }
 
         private void StartGame()
         {
-            labelMem.Visible = false;
+            labelState.Text = "Reconstituie imaginea!!!";
 
             picShuffle1.Enabled = true;
             picShuffle2.Enabled = true;

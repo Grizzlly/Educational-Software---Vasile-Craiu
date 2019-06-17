@@ -12,7 +12,7 @@ namespace IstorieSiSocietate
 {
     public partial class Quiz : Form
     {
-        private readonly RadioButton[] Raspunsuri = new RadioButton[5];
+        private readonly RadioButton[] Raspunsuri = new RadioButton[6];
 
         public Quiz()
         {
@@ -26,18 +26,22 @@ namespace IstorieSiSocietate
             Raspunsuri[2] = R31;
             Raspunsuri[3] = R41;
             Raspunsuri[4] = R54;
+            Raspunsuri[5] = r61;
         }
 
         private void SubmitBtn_Click(object sender, EventArgs e)
         {
-            uint punctaj = 0;
+            double punctaj = 0;
 
             foreach(RadioButton rb in Raspunsuri)
             {
-                if (rb.Checked) punctaj+=2;
+                if (rb.Checked)
+                {
+                    punctaj += 1.5;
+                }
             }
 
-            MessageBox.Show($"Ai obtinut {punctaj} din 10!", "Rezultat");
+            MessageBox.Show($"Ai obținut {punctaj+1} din 10!", "Rezultat");
         }
     }
 }
