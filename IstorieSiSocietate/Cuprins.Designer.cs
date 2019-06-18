@@ -139,6 +139,7 @@
             // LabelQuizBox
             // 
             this.LabelQuizBox.AutoSize = true;
+            this.LabelQuizBox.Cursor = System.Windows.Forms.Cursors.Hand;
             this.LabelQuizBox.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LabelQuizBox.Location = new System.Drawing.Point(67, 285);
             this.LabelQuizBox.Name = "LabelQuizBox";
