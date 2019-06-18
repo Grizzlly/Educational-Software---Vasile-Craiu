@@ -52,3 +52,57 @@ S:\Microsoft Visual Studio\workspaceC#\IstorieSiSocietate\IstorieSiSocietate\bin
 S:\Microsoft Visual Studio\workspaceC#\IstorieSiSocietate\IstorieSiSocietate\bin\Debug\Sounds\Spanzuratoarea\SpCorect.wav
 S:\Microsoft Visual Studio\workspaceC#\IstorieSiSocietate\IstorieSiSocietate\bin\Debug\Sounds\Spanzuratoarea\SpLose.wav
 S:\Microsoft Visual Studio\workspaceC#\IstorieSiSocietate\IstorieSiSocietate\bin\Debug\Sounds\Spanzuratoarea\SpWin.wav
+C:\Users\stan_\Source\Repos\Educational-Software---Vasile-Craiu\IstorieSiSocietate\bin\Debug\ImaginiPuzzle\2019_02_17 4_09 PM Office Lens.jpg
+C:\Users\stan_\Source\Repos\Educational-Software---Vasile-Craiu\IstorieSiSocietate\bin\Debug\ImaginiPuzzle\2019_02_17 5_13 PM Office Lens.jpg
+C:\Users\stan_\Source\Repos\Educational-Software---Vasile-Craiu\IstorieSiSocietate\bin\Debug\ImaginiPuzzle\2019_02_17 5_14 PM Office Lens.jpg
+C:\Users\stan_\Source\Repos\Educational-Software---Vasile-Craiu\IstorieSiSocietate\bin\Debug\ImaginiPuzzle\2019_02_17 5_24 PM Office Lens.jpg
+C:\Users\stan_\Source\Repos\Educational-Software---Vasile-Craiu\IstorieSiSocietate\bin\Debug\ImaginiPuzzle\2019_02_17 5_25 PM Office Lens.jpg
+C:\Users\stan_\Source\Repos\Educational-Software---Vasile-Craiu\IstorieSiSocietate\bin\Debug\ImaginiPuzzle\2019_02_17 6_06 PM Office Lens.jpg
+C:\Users\stan_\Source\Repos\Educational-Software---Vasile-Craiu\IstorieSiSocietate\bin\Debug\ImaginiPuzzle\2019_02_17 7_00 PM Office Lens.jpg
+C:\Users\stan_\Source\Repos\Educational-Software---Vasile-Craiu\IstorieSiSocietate\bin\Debug\ImaginiPuzzle\2019_02_17 7_03 PM Office Lens.jpg
+C:\Users\stan_\Source\Repos\Educational-Software---Vasile-Craiu\IstorieSiSocietate\bin\Debug\ImaginiPuzzle\2019_02_17 7_05 PM Office Lens.jpg
+C:\Users\stan_\Source\Repos\Educational-Software---Vasile-Craiu\IstorieSiSocietate\bin\Debug\ImaginiPuzzle\2019_02_17 7_06 PM Office Lens.jpg
+C:\Users\stan_\Source\Repos\Educational-Software---Vasile-Craiu\IstorieSiSocietate\bin\Debug\ImaginiPuzzle\2019_02_17 8_19 PM Office Lens.jpg
+C:\Users\stan_\Source\Repos\Educational-Software---Vasile-Craiu\IstorieSiSocietate\bin\Debug\ImaginiPuzzle\imageedit_2_7043588239.jpg
+C:\Users\stan_\Source\Repos\Educational-Software---Vasile-Craiu\IstorieSiSocietate\bin\Debug\ImaginiPuzzle\transee--warhistoryonline-com-crdownload_31185400.jpg
+C:\Users\stan_\Source\Repos\Educational-Software---Vasile-Craiu\IstorieSiSocietate\bin\Debug\Imagini\2019_02_17 4_07 PM Office Lens.jpg
+C:\Users\stan_\Source\Repos\Educational-Software---Vasile-Craiu\IstorieSiSocietate\bin\Debug\Imagini\2019_02_17 4_09 PM Office Lens.jpg
+C:\Users\stan_\Source\Repos\Educational-Software---Vasile-Craiu\IstorieSiSocietate\bin\Debug\Imagini\2019_02_17 5_07 PM Office Lens.jpg
+C:\Users\stan_\Source\Repos\Educational-Software---Vasile-Craiu\IstorieSiSocietate\bin\Debug\Imagini\2019_02_17 5_13 PM Office Lens.jpg
+C:\Users\stan_\Source\Repos\Educational-Software---Vasile-Craiu\IstorieSiSocietate\bin\Debug\Imagini\2019_02_17 5_14 PM Office Lens.jpg
+C:\Users\stan_\Source\Repos\Educational-Software---Vasile-Craiu\IstorieSiSocietate\bin\Debug\Imagini\2019_02_17 5_24 PM Office Lens.jpg
+C:\Users\stan_\Source\Repos\Educational-Software---Vasile-Craiu\IstorieSiSocietate\bin\Debug\Imagini\2019_02_17 5_25 PM Office Lens.jpg
+C:\Users\stan_\Source\Repos\Educational-Software---Vasile-Craiu\IstorieSiSocietate\bin\Debug\Imagini\2019_02_17 6_06 PM Office Lens.jpg
+C:\Users\stan_\Source\Repos\Educational-Software---Vasile-Craiu\IstorieSiSocietate\bin\Debug\Imagini\2019_02_17 6_46 PM Office Lens.jpg
+C:\Users\stan_\Source\Repos\Educational-Software---Vasile-Craiu\IstorieSiSocietate\bin\Debug\Imagini\2019_02_17 7_00 PM Office Lens.jpg
+C:\Users\stan_\Source\Repos\Educational-Software---Vasile-Craiu\IstorieSiSocietate\bin\Debug\Imagini\2019_02_17 7_03 PM Office Lens.jpg
+C:\Users\stan_\Source\Repos\Educational-Software---Vasile-Craiu\IstorieSiSocietate\bin\Debug\Imagini\2019_02_17 7_05 PM Office Lens.jpg
+C:\Users\stan_\Source\Repos\Educational-Software---Vasile-Craiu\IstorieSiSocietate\bin\Debug\Imagini\2019_02_17 7_06 PM Office Lens.jpg
+C:\Users\stan_\Source\Repos\Educational-Software---Vasile-Craiu\IstorieSiSocietate\bin\Debug\Imagini\2019_02_17 8_19 PM Office Lens.jpg
+C:\Users\stan_\Source\Repos\Educational-Software---Vasile-Craiu\IstorieSiSocietate\bin\Debug\Imagini\imageedit_2_7043588239.jpg
+C:\Users\stan_\Source\Repos\Educational-Software---Vasile-Craiu\IstorieSiSocietate\bin\Debug\Imagini\transee--warhistoryonline-com-crdownload_31185400.jpg
+C:\Users\stan_\Source\Repos\Educational-Software---Vasile-Craiu\IstorieSiSocietate\bin\Debug\Sounds\Spanzuratoarea\SpLose.wav
+C:\Users\stan_\Source\Repos\Educational-Software---Vasile-Craiu\IstorieSiSocietate\bin\Debug\Sounds\Spanzuratoarea\SpIncorect.wav
+C:\Users\stan_\Source\Repos\Educational-Software---Vasile-Craiu\IstorieSiSocietate\bin\Debug\Sounds\Spanzuratoarea\SpCorect.wav
+C:\Users\stan_\Source\Repos\Educational-Software---Vasile-Craiu\IstorieSiSocietate\bin\Debug\Sounds\Spanzuratoarea\SpWin.wav
+C:\Users\stan_\Source\Repos\Educational-Software---Vasile-Craiu\IstorieSiSocietate\bin\Debug\IstorieSiSocietate.exe.config
+C:\Users\stan_\Source\Repos\Educational-Software---Vasile-Craiu\IstorieSiSocietate\bin\Debug\IstorieSiSocietate.exe
+C:\Users\stan_\Source\Repos\Educational-Software---Vasile-Craiu\IstorieSiSocietate\bin\Debug\IstorieSiSocietate.pdb
+C:\Users\stan_\Source\Repos\Educational-Software---Vasile-Craiu\IstorieSiSocietate\obj\Debug\IstorieSiSocietate.csprojAssemblyReference.cache
+C:\Users\stan_\Source\Repos\Educational-Software---Vasile-Craiu\IstorieSiSocietate\obj\Debug\IstorieSiSocietate.Anexe.resources
+C:\Users\stan_\Source\Repos\Educational-Software---Vasile-Craiu\IstorieSiSocietate\obj\Debug\IstorieSiSocietate.Bibliografie.resources
+C:\Users\stan_\Source\Repos\Educational-Software---Vasile-Craiu\IstorieSiSocietate\obj\Debug\IstorieSiSocietate.Cuprins.resources
+C:\Users\stan_\Source\Repos\Educational-Software---Vasile-Craiu\IstorieSiSocietate\obj\Debug\IstorieSiSocietate.GameSelect.resources
+C:\Users\stan_\Source\Repos\Educational-Software---Vasile-Craiu\IstorieSiSocietate\obj\Debug\IstorieSiSocietate.JocPuzzle.resources
+C:\Users\stan_\Source\Repos\Educational-Software---Vasile-Craiu\IstorieSiSocietate\obj\Debug\IstorieSiSocietate.JocSpanzuratoarea.resources
+C:\Users\stan_\Source\Repos\Educational-Software---Vasile-Craiu\IstorieSiSocietate\obj\Debug\IstorieSiSocietate.Main.resources
+C:\Users\stan_\Source\Repos\Educational-Software---Vasile-Craiu\IstorieSiSocietate\obj\Debug\IstorieSiSocietate.Nori_negrii_pe_cerul_Romaniei.resources
+C:\Users\stan_\Source\Repos\Educational-Software---Vasile-Craiu\IstorieSiSocietate\obj\Debug\IstorieSiSocietate.Primii_ani.resources
+C:\Users\stan_\Source\Repos\Educational-Software---Vasile-Craiu\IstorieSiSocietate\obj\Debug\IstorieSiSocietate.Properties.Resources.resources
+C:\Users\stan_\Source\Repos\Educational-Software---Vasile-Craiu\IstorieSiSocietate\obj\Debug\IstorieSiSocietate.Quiz.resources
+C:\Users\stan_\Source\Repos\Educational-Software---Vasile-Craiu\IstorieSiSocietate\obj\Debug\IstorieSiSocietate.Scoala_militara_si_de_aviatie.resources
+C:\Users\stan_\Source\Repos\Educational-Software---Vasile-Craiu\IstorieSiSocietate\obj\Debug\IstorieSiSocietate.Sfarsitul_vietii.resources
+C:\Users\stan_\Source\Repos\Educational-Software---Vasile-Craiu\IstorieSiSocietate\obj\Debug\IstorieSiSocietate.csproj.GenerateResource.cache
+C:\Users\stan_\Source\Repos\Educational-Software---Vasile-Craiu\IstorieSiSocietate\obj\Debug\IstorieSiSocietate.csproj.CoreCompileInputs.cache
+C:\Users\stan_\Source\Repos\Educational-Software---Vasile-Craiu\IstorieSiSocietate\obj\Debug\IstorieSiSocietate.exe
+C:\Users\stan_\Source\Repos\Educational-Software---Vasile-Craiu\IstorieSiSocietate\obj\Debug\IstorieSiSocietate.pdb

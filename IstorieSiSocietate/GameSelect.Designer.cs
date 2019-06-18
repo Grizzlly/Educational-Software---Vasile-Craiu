@@ -47,6 +47,7 @@
             // LabelSpanzuratoare
             // 
             this.LabelSpanzuratoare.AutoSize = true;
+            this.LabelSpanzuratoare.Cursor = System.Windows.Forms.Cursors.Hand;
             this.LabelSpanzuratoare.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LabelSpanzuratoare.Location = new System.Drawing.Point(8, 46);
             this.LabelSpanzuratoare.Name = "LabelSpanzuratoare";
@@ -58,6 +59,7 @@
             // LabelPuzzle
             // 
             this.LabelPuzzle.AutoSize = true;
+            this.LabelPuzzle.Cursor = System.Windows.Forms.Cursors.Hand;
             this.LabelPuzzle.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LabelPuzzle.Location = new System.Drawing.Point(8, 68);
             this.LabelPuzzle.Name = "LabelPuzzle";

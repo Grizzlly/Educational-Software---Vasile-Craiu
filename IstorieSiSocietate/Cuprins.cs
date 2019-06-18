@@ -22,7 +22,7 @@ namespace IstorieSiSocietate
         private void Cuprins_Load(object sender, EventArgs e)
         {
             LabelQuizBox.Enabled = false;
-            //LabelJocuri.Enabled = false;
+            labelJocuri.Enabled = false;
         }
 
         private void Cuprins_VisibleChanged(object sender, EventArgs e)
@@ -39,7 +39,7 @@ namespace IstorieSiSocietate
             labelQuizCheck.Enabled = false;
 
             LabelQuizBox.Enabled = true;
-            LabelJocuri.Enabled = true;
+            labelJocuri.Enabled = true;
         }
 
         #region Cap1
@@ -241,7 +241,6 @@ namespace IstorieSiSocietate
         #endregion
 
         #region Jocuri
-
         private void LabelJocuri_Click(object sender, EventArgs e)
         {
             using (GameSelect GameSelector = new GameSelect())
@@ -272,6 +271,15 @@ namespace IstorieSiSocietate
             }
         }
 
+        private void LabelJocuri_MouseEnter(object sender, EventArgs e)
+        {
+            labelJocuri.Font = new Font(labelJocuri.Font.Name, 20, labelJocuri.Font.Style);
+        }
+
+        private void LabelJocuri_MouseLeave(object sender, EventArgs e)
+        {
+            labelJocuri.Font = new Font(labelJocuri.Font.Name, 14, labelJocuri.Font.Style);
+        }
         #endregion
     }
 }

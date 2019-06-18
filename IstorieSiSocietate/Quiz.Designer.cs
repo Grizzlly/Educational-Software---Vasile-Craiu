@@ -64,18 +64,18 @@
             this.SubmitBtn = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.r61 = new System.Windows.Forms.RadioButton();
             this.r62 = new System.Windows.Forms.RadioButton();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.Q1Box.SuspendLayout();
             this.Q2Box.SuspendLayout();
             this.Q3Box.SuspendLayout();
             this.Q4Box.SuspendLayout();
             this.Q5Box.SuspendLayout();
             this.groupBox1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // TitluBox
@@ -84,9 +84,9 @@
             this.TitluBox.Font = new System.Drawing.Font("Times New Roman", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TitluBox.Location = new System.Drawing.Point(250, 10);
             this.TitluBox.Name = "TitluBox";
-            this.TitluBox.Size = new System.Drawing.Size(245, 28);
+            this.TitluBox.Size = new System.Drawing.Size(246, 28);
             this.TitluBox.TabIndex = 0;
-            this.TitluBox.Text = "Verifică-ți conoștințele!";
+            this.TitluBox.Text = "Verifică-ți cunoștințele!";
             // 
             // Q1Text
             // 
@@ -152,9 +152,9 @@
             this.NotaBox.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.NotaBox.Location = new System.Drawing.Point(12, 435);
             this.NotaBox.Name = "NotaBox";
-            this.NotaBox.Size = new System.Drawing.Size(238, 19);
+            this.NotaBox.Size = new System.Drawing.Size(428, 19);
             this.NotaBox.TabIndex = 21;
-            this.NotaBox.Text = "Notă: Se acordă 1 punct din oficiu!";
+            this.NotaBox.Text = "Notă: Se acordă 1 punct din oficiu! Fiecare item are 1.5 puncte!";
             // 
             // Q1Box
             // 
@@ -218,17 +218,17 @@
             this.R23.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.R23.Location = new System.Drawing.Point(304, 20);
             this.R23.Name = "R23";
-            this.R23.Size = new System.Drawing.Size(141, 18);
+            this.R23.Size = new System.Drawing.Size(136, 18);
             this.R23.TabIndex = 4;
             this.R23.TabStop = true;
-            this.R23.Text = "Medalia „Avântul Tăriei”";
+            this.R23.Text = "Medalia „Avântul Tării”";
             this.R23.UseVisualStyleBackColor = true;
             // 
             // R24
             // 
             this.R24.AutoSize = true;
             this.R24.Font = new System.Drawing.Font("Times New Roman", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.R24.Location = new System.Drawing.Point(451, 20);
+            this.R24.Location = new System.Drawing.Point(446, 20);
             this.R24.Name = "R24";
             this.R24.Size = new System.Drawing.Size(115, 18);
             this.R24.TabIndex = 5;
@@ -508,6 +508,26 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Răspuns:";
             // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.Location = new System.Drawing.Point(196, 21);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(100, 63);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 7;
+            this.pictureBox2.TabStop = false;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(26, 21);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(100, 63);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 6;
+            this.pictureBox1.TabStop = false;
+            // 
             // r61
             // 
             this.r61.AutoSize = true;
@@ -529,26 +549,6 @@
             this.r62.TabIndex = 3;
             this.r62.TabStop = true;
             this.r62.UseVisualStyleBackColor = true;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(26, 21);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(100, 63);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 6;
-            this.pictureBox1.TabStop = false;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(196, 21);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(100, 63);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 7;
-            this.pictureBox2.TabStop = false;
             // 
             // Quiz
             // 
@@ -588,8 +588,8 @@
             this.Q5Box.PerformLayout();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

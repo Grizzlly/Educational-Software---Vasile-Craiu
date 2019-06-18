@@ -38,7 +38,7 @@
             this.LabelCap6 = new System.Windows.Forms.Label();
             this.LabelQuizBox = new System.Windows.Forms.Label();
             this.labelQuizCheck = new System.Windows.Forms.Label();
-            this.LabelJocuri = new System.Windows.Forms.Label();
+            this.labelJocuri = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // TitluBox
@@ -159,23 +159,26 @@
             this.labelQuizCheck.TabIndex = 8;
             this.labelQuizCheck.Text = "Notă: Trebuie parcurse toate capitolele!";
             // 
-            // LabelJocuri
+            // labelJocuri
             // 
-            this.LabelJocuri.AutoSize = true;
-            this.LabelJocuri.Font = new System.Drawing.Font("Times New Roman", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LabelJocuri.Location = new System.Drawing.Point(651, 376);
-            this.LabelJocuri.Name = "LabelJocuri";
-            this.LabelJocuri.Size = new System.Drawing.Size(81, 22);
-            this.LabelJocuri.TabIndex = 9;
-            this.LabelJocuri.Text = "JOCURI";
-            this.LabelJocuri.Click += new System.EventHandler(this.LabelJocuri_Click);
+            this.labelJocuri.AutoSize = true;
+            this.labelJocuri.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.labelJocuri.Font = new System.Drawing.Font("Times New Roman", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelJocuri.Location = new System.Drawing.Point(651, 376);
+            this.labelJocuri.Name = "labelJocuri";
+            this.labelJocuri.Size = new System.Drawing.Size(81, 22);
+            this.labelJocuri.TabIndex = 9;
+            this.labelJocuri.Text = "JOCURI";
+            this.labelJocuri.Click += new System.EventHandler(this.LabelJocuri_Click);
+            this.labelJocuri.MouseEnter += new System.EventHandler(this.LabelJocuri_MouseEnter);
+            this.labelJocuri.MouseLeave += new System.EventHandler(this.LabelJocuri_MouseLeave);
             // 
             // Cuprins
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.LabelJocuri);
+            this.Controls.Add(this.labelJocuri);
             this.Controls.Add(this.labelQuizCheck);
             this.Controls.Add(this.LabelQuizBox);
             this.Controls.Add(this.LabelCap6);
@@ -208,6 +211,6 @@
         private System.Windows.Forms.Label LabelCap6;
         private System.Windows.Forms.Label LabelQuizBox;
         private System.Windows.Forms.Label labelQuizCheck;
-        private System.Windows.Forms.Label LabelJocuri;
+        private System.Windows.Forms.Label labelJocuri;
     }
 }

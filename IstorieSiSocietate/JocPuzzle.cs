@@ -283,6 +283,10 @@ namespace IstorieSiSocietate
             picShuffle2.Image = null;
             picShuffle3.Enabled = false;
             picShuffle3.Image = null;
+
+            picShuffle1.Location = pic1Location;
+            picShuffle2.Location = pic2Location;
+            picShuffle3.Location = pic3Location;
             #endregion
 
             btnGameStart.Enabled = true;

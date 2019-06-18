@@ -84,7 +84,7 @@
             // InfoBox
             // 
             this.InfoBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.InfoBox.Cursor = System.Windows.Forms.Cursors.No;
+            this.InfoBox.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.InfoBox.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.InfoBox.Location = new System.Drawing.Point(4, 4);
             this.InfoBox.Name = "InfoBox";
