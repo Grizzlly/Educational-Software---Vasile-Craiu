@@ -6,6 +6,7 @@ using System.Diagnostics;
 using System.Drawing;
 using System.IO;
 using System.Linq;
+using System.Media;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -259,6 +260,11 @@ namespace IstorieSiSocietate
 
                 labelState.ForeColor = Color.Red;
                 labelState.Text = "Oops...";
+
+                using (SoundPlayer soundPlayer = new SoundPlayer("Sounds/Puzzle/PLose.wav"))
+                {
+                    soundPlayer.Play();
+                }
             }
             else
             {
@@ -266,8 +272,12 @@ namespace IstorieSiSocietate
 
                 labelState.ForeColor = Color.Green;
                 labelState.Text = "Bravo!";
-            }
 
+                using (SoundPlayer soundPlayer = new SoundPlayer("Sounds/Puzzle/PWin.wav"))
+                {
+                    soundPlayer.Play();
+                }
+            }
 
             #region Pics Cleanup
             picArr00.Image = null;

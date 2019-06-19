@@ -164,12 +164,14 @@
             // 
             this.labelJocuri.AutoSize = true;
             this.labelJocuri.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.labelJocuri.Enabled = false;
             this.labelJocuri.Font = new System.Drawing.Font("Times New Roman", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelJocuri.Location = new System.Drawing.Point(651, 376);
             this.labelJocuri.Name = "labelJocuri";
             this.labelJocuri.Size = new System.Drawing.Size(81, 22);
             this.labelJocuri.TabIndex = 9;
             this.labelJocuri.Text = "JOCURI";
+            this.labelJocuri.Visible = false;
             this.labelJocuri.Click += new System.EventHandler(this.LabelJocuri_Click);
             this.labelJocuri.MouseEnter += new System.EventHandler(this.LabelJocuri_MouseEnter);
             this.labelJocuri.MouseLeave += new System.EventHandler(this.LabelJocuri_MouseLeave);

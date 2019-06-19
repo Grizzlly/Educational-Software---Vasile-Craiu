@@ -106,3 +106,5 @@ C:\Users\stan_\Source\Repos\Educational-Software---Vasile-Craiu\IstorieSiSocieta
 C:\Users\stan_\Source\Repos\Educational-Software---Vasile-Craiu\IstorieSiSocietate\obj\Debug\IstorieSiSocietate.csproj.CoreCompileInputs.cache
 C:\Users\stan_\Source\Repos\Educational-Software---Vasile-Craiu\IstorieSiSocietate\obj\Debug\IstorieSiSocietate.exe
 C:\Users\stan_\Source\Repos\Educational-Software---Vasile-Craiu\IstorieSiSocietate\obj\Debug\IstorieSiSocietate.pdb
+C:\Users\stan_\Source\Repos\Educational-Software---Vasile-Craiu\IstorieSiSocietate\bin\Debug\Sounds\Puzzle\PLose.wav
+C:\Users\stan_\Source\Repos\Educational-Software---Vasile-Craiu\IstorieSiSocietate\bin\Debug\Sounds\Puzzle\PWin.wav

@@ -291,6 +291,12 @@
     <Content Include="Imagini\transee--warhistoryonline-com-crdownload_31185400.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="Sounds\Puzzle\PLose.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sounds\Puzzle\PWin.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="Sounds\Spanzuratoarea\SpLose.wav">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>

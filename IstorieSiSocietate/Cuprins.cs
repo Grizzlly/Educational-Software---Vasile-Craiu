@@ -23,7 +23,7 @@ namespace IstorieSiSocietate
         {
             LabelQuizBox.Enabled = false;
 
-            labelJocuri.Enabled = false;
+            //labelJocuri.Enabled = false;
         }
 
         private void Cuprins_VisibleChanged(object sender, EventArgs e)
@@ -40,7 +40,7 @@ namespace IstorieSiSocietate
             labelQuizCheck.Enabled = false;
 
             LabelQuizBox.Enabled = true;
-            labelJocuri.Enabled = true;
+            //labelJocuri.Enabled = true;
         }
 
         #region Cap1
@@ -183,6 +183,10 @@ namespace IstorieSiSocietate
             {
                 quiz.ShowDialog();
             }
+
+            labelJocuri.Visible = true;
+            labelJocuri.Enabled = true;
+
             Show();
         }
 

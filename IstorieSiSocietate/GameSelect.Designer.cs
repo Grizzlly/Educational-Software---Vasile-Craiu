@@ -30,8 +30,8 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(GameSelect));
             this.button1 = new System.Windows.Forms.Button();
-            this.LabelSpanzuratoare = new System.Windows.Forms.Label();
-            this.LabelPuzzle = new System.Windows.Forms.Label();
+            this.labelSpanzuratoare = new System.Windows.Forms.Label();
+            this.labelPuzzle = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // button1
@@ -44,29 +44,33 @@
             this.button1.Text = "Anulare";
             this.button1.UseVisualStyleBackColor = true;
             // 
-            // LabelSpanzuratoare
+            // labelSpanzuratoare
             // 
-            this.LabelSpanzuratoare.AutoSize = true;
-            this.LabelSpanzuratoare.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.LabelSpanzuratoare.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LabelSpanzuratoare.Location = new System.Drawing.Point(8, 46);
-            this.LabelSpanzuratoare.Name = "LabelSpanzuratoare";
-            this.LabelSpanzuratoare.Size = new System.Drawing.Size(152, 22);
-            this.LabelSpanzuratoare.TabIndex = 1;
-            this.LabelSpanzuratoare.Text = "• Spanzuratoarea";
-            this.LabelSpanzuratoare.Click += new System.EventHandler(this.LabelSpanzuratoare_Click);
+            this.labelSpanzuratoare.AutoSize = true;
+            this.labelSpanzuratoare.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.labelSpanzuratoare.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelSpanzuratoare.Location = new System.Drawing.Point(8, 46);
+            this.labelSpanzuratoare.Name = "labelSpanzuratoare";
+            this.labelSpanzuratoare.Size = new System.Drawing.Size(152, 22);
+            this.labelSpanzuratoare.TabIndex = 1;
+            this.labelSpanzuratoare.Text = "• Spanzuratoarea";
+            this.labelSpanzuratoare.Click += new System.EventHandler(this.LabelSpanzuratoare_Click);
+            this.labelSpanzuratoare.MouseEnter += new System.EventHandler(this.LabelSpanzuratoare_MouseEnter);
+            this.labelSpanzuratoare.MouseLeave += new System.EventHandler(this.LabelSpanzuratoare_MouseLeave);
             // 
-            // LabelPuzzle
+            // labelPuzzle
             // 
-            this.LabelPuzzle.AutoSize = true;
-            this.LabelPuzzle.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.LabelPuzzle.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LabelPuzzle.Location = new System.Drawing.Point(8, 68);
-            this.LabelPuzzle.Name = "LabelPuzzle";
-            this.LabelPuzzle.Size = new System.Drawing.Size(74, 22);
-            this.LabelPuzzle.TabIndex = 2;
-            this.LabelPuzzle.Text = "• Puzzle";
-            this.LabelPuzzle.Click += new System.EventHandler(this.LabelPuzzle_Click);
+            this.labelPuzzle.AutoSize = true;
+            this.labelPuzzle.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.labelPuzzle.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelPuzzle.Location = new System.Drawing.Point(8, 77);
+            this.labelPuzzle.Name = "labelPuzzle";
+            this.labelPuzzle.Size = new System.Drawing.Size(74, 22);
+            this.labelPuzzle.TabIndex = 2;
+            this.labelPuzzle.Text = "• Puzzle";
+            this.labelPuzzle.Click += new System.EventHandler(this.LabelPuzzle_Click);
+            this.labelPuzzle.MouseEnter += new System.EventHandler(this.LabelPuzzle_MouseEnter);
+            this.labelPuzzle.MouseLeave += new System.EventHandler(this.LabelPuzzle_MouseLeave);
             // 
             // GameSelect
             // 
@@ -74,8 +78,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
             this.ClientSize = new System.Drawing.Size(260, 161);
-            this.Controls.Add(this.LabelPuzzle);
-            this.Controls.Add(this.LabelSpanzuratoare);
+            this.Controls.Add(this.labelPuzzle);
+            this.Controls.Add(this.labelSpanzuratoare);
             this.Controls.Add(this.button1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
@@ -90,7 +94,7 @@
         #endregion
 
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Label LabelSpanzuratoare;
-        private System.Windows.Forms.Label LabelPuzzle;
+        private System.Windows.Forms.Label labelSpanzuratoare;
+        private System.Windows.Forms.Label labelPuzzle;
     }
 }
